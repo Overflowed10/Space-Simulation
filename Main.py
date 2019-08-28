@@ -102,7 +102,7 @@ def main():
     p8 = Space.Spaceobject(name="Neptune", mass=1.02*10**26, location=[4495. * 10 ** 9, 0, 0],
                            D_TIME=D_TIME, velocity=[0, 19548 / 3.6, 0], color="#0040ff")
 
-    space_object_list = [p1, p2, p3, p4, p5]
+    space_object_list = [p1, p2, p3, p4, p5, p6, p7, p8]
 
     # Plotting the space objects
     show_plot(space_object_list, iterations=250_000, save="Solar")

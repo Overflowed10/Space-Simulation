@@ -75,7 +75,7 @@ def show_plot(space_object_list, iterations=10 ** 5, save=None):
 def main():
     """
     Create the spaceobjects you want to plot and put them into the space_object_list.
-    Location (hast to be float) and velocity are necessary. The rest is optional.
+    Name, location (hast to be float) and velocity are necessary. The rest is optional.
     """
 
     p1 = Space.Spaceobject(name="Mercury", mass=3.3*10**26, location=[58.*10**9, 0, 0],

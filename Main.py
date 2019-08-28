@@ -105,7 +105,7 @@ def main():
     space_object_list = [p1, p2, p3, p4, p5, p6, p7, p8]
 
     # Plotting the space objects
-    show_plot(space_object_list, iterations=250_000, save="Solar")
+    show_plot(space_object_list, iterations=250_000)
 
 
 if __name__ == "__main__":

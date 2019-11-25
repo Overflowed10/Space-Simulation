@@ -14,4 +14,4 @@ meteor2 = Space.Spaceobject(name="Meteor2", location=[-100. * 10 ** 9, 70. * 10 
 space_object_list = [meteor1, meteor2]                                              
 ```
 
-When executin main(), you can zoom by holding down and moving your right mouse button. 
+When executing main(), you can zoom by clicking and moving your right mouse button. 
